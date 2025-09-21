@@ -8,7 +8,7 @@ public class Store {
   }
 
   public List<Content> listAvailableMovies() {
-    return server.fetchavAilableContent();
+    return server.fetchAvailableContent();
   }
 
   public double calculateTotalPrice(List<Content> selectedMovies) {
